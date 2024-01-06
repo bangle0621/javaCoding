@@ -18,6 +18,11 @@ public class java_002 {
 		System.out.println("ch : "+ ch);
 	}
 	
+	/**
+	 * 반복되는 문자를 찾을때...
+	 * @param str
+	 * @return
+	 */
 	public char findCh(String str) {
 		
 		Map<Character, Integer>  charMap = new HashMap<Character, Integer>();
@@ -27,6 +32,7 @@ public class java_002 {
 			char ch = str.charAt(i);
 			
 			charMap.compute(ch, (k , v) -> (v==null)? 1 : ++v);
+			
 			
 			if(charMap.get(ch) != 1) {
 				System.out.println("i : " + i);
