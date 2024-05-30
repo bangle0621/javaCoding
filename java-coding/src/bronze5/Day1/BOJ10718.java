@@ -1,4 +1,4 @@
-package bronze5;
+package bronze5.Day1;
 
 public class BOJ10718 {
 //	¹®Á¦

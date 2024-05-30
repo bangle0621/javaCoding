@@ -1,4 +1,4 @@
-package bronze5;
+package bronze5.Day1;
 
 public class helloworld {
 	public static void main(String[] args) {
